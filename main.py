@@ -5,7 +5,6 @@ from SpotifyPreprocessor import SpotifyPreprocessor
 
 def main():
 
-    
     script_dir = os.path.dirname(os.path.realpath(__file__)) # need a default folder path directory
 
     parser = argparse.ArgumentParser(description="Process Spotify Extended Streaming History.") # parser for main
@@ -18,7 +17,7 @@ def main():
         help="Path to the folder containing JSON files. Defaults to the script's directory."
     )
 
-    # arg for  the pickle location
+    # optional arg for  the pickle location
     parser.add_argument(
         "--pickle_path",
         help="Path to the folder for the pickle file. Defaults to the script's directory if not provided."
