@@ -15,6 +15,22 @@ This is a utility library of functions for handling your data produced from Spot
 
 Visualization utilities depend on the `splitStreams` output of podcasts and songs. Future improvements will ensure visualization arguments are properly met before executing. Given this projects infancy, please be cautious of input requirements and ouput states of these utils.
 
+## Enviroment Setup
+
+This repo requires a few libraries. A requirements.txt file is provided to generate an enviroment. To produce your enviroment, run this:
+
+```bash
+conda create --name seshenv --file requirements.txt
+```
+
+Then activate it:
+
+```bash
+conda activate seshenv
+```
+
+Finally, navigate to this repos directory on your computer. 
+
 ## Example Usage
 
 A demonstration file, `example.py` is is provided to prepare the data for you but also provide two Life Time Plot analytics. By default, it is set to 'albums', but you can change this to in the above in its configuration. 
