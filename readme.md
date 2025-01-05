@@ -17,13 +17,14 @@ Visualization utilities depend on the `splitStreams` output of podcasts and song
 
 ## Enviroment Setup
 
-This repo requires a few libraries. A requirements.txt file is provided to generate an enviroment. To produce your enviroment, run this:
+This repo requires a few libraries. A requirements.txt file is provided to generate an Nenviroment. To produce your enviroment, run this:
 
 ```bash
 conda create --name seshenv --file requirements.txt
 ```
+Note that there are a bucnh of unused libaries not used in this repo. This is to be cleaned up later.
 
-Then activate it:
+After you have created the enviroment, activate it:
 
 ```bash
 conda activate seshenv
