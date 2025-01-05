@@ -22,7 +22,7 @@ This repo requires a few libraries. A requirements.txt file is provided to gener
 ```bash
 conda create --name seshenv --file requirements.txt
 ```
-Note that there are a bucnh of unused libaries not used in this repo. This is to be cleaned up later.
+Note that there are a bunch of unused libaries not used in this repo. This is to be cleaned up later.
 
 After you have created the enviroment, activate it:
 
