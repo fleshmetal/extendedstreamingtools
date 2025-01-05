@@ -1,4 +1,4 @@
-# SESH Tools: Spotify Extended Streaming History Dataset Utils
+# Spotify Extended Streaming History Dataset Utils
 
 As most major billion dollar tech companies do in some capacity, the Spotify music streaming platform has been collecting your usage of their service at an extremely granular level. This is, they track each instance of when you start to stream i.e. play a song. Each instance of this play contains a ton of metrics. This utility library is designed to enable users to manipulate and observe this data
 
